@@ -28,11 +28,11 @@ function removeOpacity(event) {
     event.preventDefault();    
 }
 
-function getProductInfo(partNumber) {
+function getProductInfo(paintNumber) {
     let price;
     let colorName;  
     
-    switch (partNumber) {
+    switch (paintNumber) {
         case 'pn1':           
             price = '$19.99'
             colorName = 'Lime Green'
